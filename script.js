@@ -9,7 +9,7 @@ const translations = {
     search_button: "Naviguer", theme_toggle: "Changer le thème", proof_label: "Repères professionnels", metrics_label: "Domaines d’intervention",
     hero_eyebrow: "Données humanitaires · Analyse · Décision", hero_title: "Je transforme les données de terrain en décisions fiables.",
     hero_lead: "Analyste de Données Senior et ingénieur en génie informatique, je conçois des systèmes qui relient collecte, qualité, analyse et visualisation pour éclairer l’action humanitaire.",
-    hero_cta1: "Découvrir mes projets", hero_cta2: "Voir mon profil senior", proof_years: "ans d’expérience", proof_cycle: "cycle de données", proof_contexts: "contextes pays soutenus",
+    hero_cta1: "Découvrir mes projets", hero_cta2: "Profil", proof_years: "ans d’expérience", proof_cycle: "cycle de données", proof_contexts: "contextes pays soutenus",
     pipeline_title: "De la question à la décision", pipeline_status: "Approche intégrée", step1_title: "Concevoir", step1: "Méthodologie, échantillonnage et XLSForm", step2_title: "Fiabiliser", step2: "Contrôles qualité et cleaning logs", step3_title: "Analyser", step3: "Indicateurs, pondération et interprétation", step4_title: "Décider", step4: "Dashboards, rapports et recommandations",
     metric1: "nettoyage, analyse et automatisation", metric2: "Power BI, Shiny et communication", metric3: "qualité, plausibilité et traçabilité", metric4: "information management humanitaire",
     expertise_kicker: "Expertise", expertise_title: "Un profil senior sur l’ensemble de la chaîne de données.", expertise_intro: "Je combine compréhension opérationnelle, rigueur analytique et ingénierie légère pour produire des résultats utilisables, reproductibles et défendables.",
@@ -18,7 +18,7 @@ const translations = {
     exp3_title: "Analyse humanitaire", exp3_text: "Construction et interprétation d’indicateurs multisectoriels pour transformer les données en constats et recommandations.", exp3_tag: "Analyse pondérée",
     exp4_title: "Pilotage et visualisation", exp4_text: "Trackers de collecte, suivi de représentativité et tableaux de bord adaptés aux besoins des équipes opérationnelles.",
     work_kicker: "Projets sélectionnés", work_title: "Des systèmes pensés pour le terrain et la décision.", work_intro: "Des projets où la qualité technique doit rester compatible avec les contraintes opérationnelles, les délais et la lisibilité pour les équipes.",
-    dash_title: "Suivi de représentativité", dash_live: "Collecte", dash_kpi1: "Régions", dash_kpi2: "Cercles suivis", dash_kpi3: "Niveaux",
+    dash_title: "Suivi de représentativité", dash_live: "Collecte", dash_kpi1: "Régions", dash_kpi2: "Cercles suivis", dash_kpi3: "Échelles de suivi",
     case1_meta: "Évaluation multisectorielle", case1: "Pilotage de la donnée de la collecte à l’analyse : tracker Shiny, quotas par cercle et cluster, contrôle qualité, boucles sectorielles et suivi de la représentativité.",
     case2_visual: "règles et contrôles", case2_meta: "Automatisation", case2_title: "Moteur de contrôle qualité", case2: "Architecture réutilisable pour détecter les incohérences, prioriser les alertes et générer des cleaning logs exploitables par zone et par équipe.",
     case3_meta: "Analyse multisectorielle", case3_title: "Portefeuille d’évaluations humanitaires", case3: "Contributions aux cycles Post-RRM, ABA, FHRAOC, HSM et MSNA, ainsi qu’à des appuis analytiques en RDC et au Burkina Faso.",
@@ -28,8 +28,11 @@ const translations = {
     journey1_title: "Entrée chez REACH / ACTED Mali", journey1_text: "Début comme Chargé de Données et premières responsabilités sur les évaluations et systèmes d’information humanitaires.", journey2_title: "Montée en responsabilité", journey2_text: "Post-RRM, ABA, FHRAOC, HSM et leadership data sur la MSNA Mali 2025, avec des appuis régionaux.", journey3_title: "Analyste de Données Senior", journey3_text: "Pilotage de workflows complexes, contrôle qualité avancé, analyse multisectorielle, automatisation et accompagnement à la décision.",
     book_cover_label: "Couverture du projet de livre Penser Data", book_kicker: "Projet éditorial", book_sub: "Devenir excellent dans un monde augmenté par l’IA", book_intro: "Un livre pour apprendre à comprendre les problèmes, questionner les données et produire de la valeur — au-delà de la simple maîtrise des outils.", book1: "Penser avant de coder", book2: "Créer de l’impact, pas seulement des graphiques", book3: "Faire de l’IA un levier, sans abandonner le jugement professionnel",
     contact_title: "Parlons données, systèmes et impact.", contact_intro: "Disponible pour échanger autour de l’analyse humanitaire, des systèmes de qualité et des projets data à fort impact.", download_cv: "Télécharger mon CV", footer_role: "Senior Data Analyst · Données humanitaires · Mali",
-    command_title: "Naviguer vers une section", search_placeholder: "Rechercher une section…", close: "Fermer",
-    lang_label: "Passer en anglais"
+    command_title: "Naviguer vers une section", search_placeholder: "Rechercher une section…", close: "Fermer", book_cta: "Découvrir le projet de livre",
+    book_status: "Livre en cours d’écriture",
+    book_modal_title: "Le livre est en cours d’écriture.",
+    book_modal_text: "Penser Data est actuellement en préparation. Le contenu est en cours de rédaction, de structuration et d’enrichissement avant sa publication.",
+    book_progress: "Projet éditorial en cours", book_modal_close: "Continuer à explorer", lang_label: "Passer en anglais"
   },
   en: {
     page_title: "Oumar Bocoum — Senior Data Analyst",
@@ -39,7 +42,7 @@ const translations = {
     search_button: "Navigate", theme_toggle: "Change theme", proof_label: "Professional highlights", metrics_label: "Areas of practice",
     hero_eyebrow: "Humanitarian data · Analysis · Decisions", hero_title: "I turn field data into reliable decisions.",
     hero_lead: "A Senior Data Analyst and computer engineer, I design systems connecting data collection, quality assurance, analysis and visualization to inform humanitarian action.",
-    hero_cta1: "Explore my projects", hero_cta2: "View my senior profile", proof_years: "years of experience", proof_cycle: "data lifecycle", proof_contexts: "country contexts supported",
+    hero_cta1: "Explore my projects", hero_cta2: "Profile", proof_years: "years of experience", proof_cycle: "data lifecycle", proof_contexts: "country contexts supported",
     pipeline_title: "From question to decision", pipeline_status: "Integrated approach", step1_title: "Design", step1: "Methodology, sampling and XLSForm", step2_title: "Assure", step2: "Quality checks and cleaning logs", step3_title: "Analyze", step3: "Indicators, weighting and interpretation", step4_title: "Decide", step4: "Dashboards, reports and recommendations",
     metric1: "cleaning, analysis and automation", metric2: "Power BI, Shiny and communication", metric3: "quality, plausibility and traceability", metric4: "humanitarian information management",
     expertise_kicker: "Expertise", expertise_title: "A senior profile across the entire data lifecycle.", expertise_intro: "I combine operational understanding, analytical rigor and lightweight engineering to deliver results that are usable, reproducible and defensible.",
@@ -48,7 +51,7 @@ const translations = {
     exp3_title: "Humanitarian analysis", exp3_text: "Development and interpretation of multisectoral indicators to turn data into findings and recommendations.", exp3_tag: "Weighted analysis",
     exp4_title: "Monitoring and visualization", exp4_text: "Collection trackers, representativeness monitoring and dashboards tailored to operational teams’ needs.",
     work_kicker: "Selected projects", work_title: "Systems designed for field realities and decisions.", work_intro: "Projects where technical quality must remain compatible with operational constraints, deadlines and clarity for teams.",
-    dash_title: "Representativeness tracking", dash_live: "Collection", dash_kpi1: "Regions", dash_kpi2: "Districts tracked", dash_kpi3: "Levels",
+    dash_title: "Representativeness tracking", dash_live: "Collection", dash_kpi1: "Regions", dash_kpi2: "Districts tracked", dash_kpi3: "Monitoring levels",
     case1_meta: "Multisectoral assessment", case1: "Data leadership from collection through analysis: Shiny tracker, district and cluster quotas, quality assurance, sector loops and representativeness monitoring.",
     case2_visual: "rules and checks", case2_meta: "Automation", case2_title: "Quality assurance engine", case2: "A reusable architecture to detect inconsistencies, prioritize alerts and generate cleaning logs that field teams can act on by area and team.",
     case3_meta: "Multisectoral analysis", case3_title: "Humanitarian assessment portfolio", case3: "Contributions to Post-RRM, ABA, FHRAOC, HSM and MSNA cycles, along with analytical support in the DRC and Burkina Faso.",
@@ -59,7 +62,12 @@ const translations = {
     book_cover_label: "Cover of the Penser Data book project", book_kicker: "Editorial project", book_sub: "Becoming outstanding in an AI-augmented world", book_intro: "A book about understanding problems, questioning data and creating value — beyond simply mastering tools.", book1: "Think before coding", book2: "Create impact, not just charts", book3: "Use AI as leverage without surrendering professional judgment",
     contact_title: "Let’s talk data, systems and impact.", contact_intro: "Open to conversations about humanitarian analysis, quality systems and high-impact data projects.", download_cv: "Download my résumé", footer_role: "Senior Data Analyst · Humanitarian Data · Mali",
     command_title: "Navigate to a section", search_placeholder: "Search for a section…", close: "Close",
-    lang_label: "Passer en français"
+    book_cta: "Discover the book project",
+    book_status: "Book in progress",
+    book_modal_title: "The book is currently being written.",
+    book_modal_text: "Penser Data is currently in development. Its content is being written, structured and expanded ahead of publication.",
+    book_progress: "Editorial project in progress",
+    book_modal_close: "Continue exploring", lang_label: "Passer en français"
   }
 };
 
@@ -206,3 +214,44 @@ document.querySelectorAll("[data-placeholder]").forEach((button) => {
 
 document.getElementById("currentYear").textContent = new Date().getFullYear();
 applyLanguage();
+
+const bookModal = document.getElementById("bookModal");
+const openBookButton = document.getElementById("openBookModal");
+const closeBookButton = document.getElementById("closeBookModal");
+const confirmBookButton = document.getElementById("confirmBookModal");
+
+function openBookModal() {
+  bookModal.classList.add("open");
+  bookModal.setAttribute("aria-hidden", "false");
+  document.body.classList.add("modal-open");
+
+  setTimeout(() => {
+    closeBookButton.focus();
+  }, 50);
+}
+
+function closeBookModal() {
+  bookModal.classList.remove("open");
+  bookModal.setAttribute("aria-hidden", "true");
+  document.body.classList.remove("modal-open");
+  openBookButton.focus();
+}
+
+openBookButton.addEventListener("click", openBookModal);
+closeBookButton.addEventListener("click", closeBookModal);
+confirmBookButton.addEventListener("click", closeBookModal);
+
+bookModal.addEventListener("click", (event) => {
+  if (event.target === bookModal) {
+    closeBookModal();
+  }
+});
+
+document.addEventListener("keydown", (event) => {
+  if (
+    event.key === "Escape" &&
+    bookModal.classList.contains("open")
+  ) {
+    closeBookModal();
+  }
+});

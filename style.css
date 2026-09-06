@@ -188,6 +188,97 @@ footer { padding: 30px 0; border-top: 1px solid var(--line); }
 .toast { position: fixed; z-index: 150; left: 50%; bottom: 24px; translate: -50% 24px; opacity: 0; max-width: min(520px, calc(100% - 32px)); padding: 12px 16px; color: var(--button-text); background: var(--button); border-radius: 10px; box-shadow: var(--shadow); pointer-events: none; transition: opacity .2s, translate .2s; }
 .toast.show { opacity: 1; translate: -50% 0; }
 
+.book-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.book-actions button {
+  cursor: pointer;
+}
+
+.book-status {
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.book-modal-card {
+  position: relative;
+  max-width: 640px;
+  padding: 38px;
+  text-align: center;
+}
+
+.book-modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--muted);
+  background: var(--panel-2);
+  cursor: pointer;
+}
+
+.book-modal-visual {
+  width: min(320px, 100%);
+  margin: 0 auto 12px;
+}
+
+.book-modal-visual svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.book-modal-card .eyebrow {
+  margin-top: 8px;
+}
+
+.book-modal-card h2 {
+  max-width: 520px;
+  margin-inline: auto;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+.book-modal-text {
+  max-width: 520px;
+  margin: 20px auto 0;
+  color: var(--muted);
+}
+
+.book-progress {
+  width: min(360px, 100%);
+  height: 8px;
+  margin: 28px auto 0;
+  overflow: hidden;
+  border-radius: 999px;
+  background: var(--panel-2);
+}
+
+.book-progress span {
+  display: block;
+  width: 58%;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--accent);
+}
+
+.book-progress-label {
+  margin: 9px 0 26px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
 @media (max-width: 1020px) {
   .nav-links { display: none; }
   .hero-grid, .case-grid, .profile-grid, .book-card, .contact-grid { grid-template-columns: 1fr; }
