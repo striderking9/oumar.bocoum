@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio d’Oumar Bocoum, Analyste de Données Senior spécialisé dans les données humanitaires, l’automatisation, la qualité et la visualisation.">
+  <meta name="color-scheme" content="dark light">
+  <title>Oumar Bocoum — Analyste de Données Senior</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip_link">Aller au contenu</a>
+
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Oumar Bocoum — Accueil">
+        <span class="logo" aria-hidden="true">OB</span>
+        <span class="brand-text">Oumar Bocoum<small data-i18n="brand_role">Analyste de Données Senior</small></span>
+      </a>
+
+      <nav class="nav-links" aria-label="Navigation principale" data-i18n-aria-label="main_nav">
+        <a href="#expertise" data-i18n="nav_expertise">Expertise</a>
+        <a href="#work" data-i18n="nav_work">Projets</a>
+        <a href="#journey" data-i18n="nav_journey">Parcours</a>
+        <a href="#writing" data-i18n="nav_writing">Écriture</a>
+        <a href="#contact" data-i18n="nav_contact">Contact</a>
+      </nav>
+
+      <div class="actions">
+        <button class="cmd-btn" id="openCommand" type="button">
+          <span data-i18n="search_button">Naviguer</span><kbd>Ctrl K</kbd>
+        </button>
+        <button class="lang-btn" id="langToggle" type="button" aria-label="Passer en anglais">FR</button>
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Changer le thème" data-i18n-aria-label="theme_toggle">◐</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="reveal">
+          <p class="eyebrow" data-i18n="hero_eyebrow">Données humanitaires · Analyse · Décision</p>
+          <h1 data-i18n="hero_title">Je transforme les données de terrain en décisions fiables.</h1>
+          <p class="lead" data-i18n="hero_lead">Analyste de Données Senior et ingénieur en génie informatique, je conçois des systèmes qui relient collecte, qualité, analyse et visualisation pour éclairer l’action humanitaire.</p>
+          <div class="hero-actions">
+            <a class="primary-btn" href="#work" data-i18n="hero_cta1">Découvrir mes projets</a>
+            <a class="secondary-btn" href="#profile" data-i18n="hero_cta2">Voir mon profil senior</a>
+          </div>
+          <div class="hero-proof" aria-label="Repères professionnels" data-i18n-aria-label="proof_label">
+            <span><strong>5+</strong> <span data-i18n="proof_years">ans d’expérience</span></span>
+            <span><strong>360°</strong> <span data-i18n="proof_cycle">cycle de données</span></span>
+            <span><strong>3</strong> <span data-i18n="proof_contexts">contextes pays soutenus</span></span>
+          </div>
+        </div>
+
+        <aside class="pipeline-card reveal" aria-labelledby="pipeline-title">
+          <div class="pipeline-head">
+            <span id="pipeline-title" data-i18n="pipeline_title">De la question à la décision</span>
+            <div class="status-dot"><i aria-hidden="true"></i><span data-i18n="pipeline_status">Approche intégrée</span></div>
+          </div>
+          <div class="pipeline">
+            <div class="step"><span class="step-icon">01</span><div><strong data-i18n="step1_title">Concevoir</strong><small data-i18n="step1">Méthodologie, échantillonnage et XLSForm</small></div><span class="arrow">↓</span></div>
+            <div class="step"><span class="step-icon">02</span><div><strong data-i18n="step2_title">Fiabiliser</strong><small data-i18n="step2">Contrôles qualité et cleaning logs</small></div><span class="arrow">↓</span></div>
+            <div class="step"><span class="step-icon">03</span><div><strong data-i18n="step3_title">Analyser</strong><small data-i18n="step3">Indicateurs, pondération et interprétation</small></div><span class="arrow">↓</span></div>
+            <div class="step"><span class="step-icon">04</span><div><strong data-i18n="step4_title">Décider</strong><small data-i18n="step4">Dashboards, rapports et recommandations</small></div><span class="arrow">↗</span></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <div class="metrics" aria-label="Domaines d’intervention" data-i18n-aria-label="metrics_label">
+      <div class="container metrics-grid">
+        <div class="metric"><strong>R</strong><span data-i18n="metric1">nettoyage, analyse et automatisation</span></div>
+        <div class="metric"><strong>BI</strong><span data-i18n="metric2">Power BI, Shiny et communication</span></div>
+        <div class="metric"><strong>QA</strong><span data-i18n="metric3">qualité, plausibilité et traçabilité</span></div>
+        <div class="metric"><strong>IM</strong><span data-i18n="metric4">information management humanitaire</span></div>
+      </div>
+    </div>
+
+    <section id="expertise">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><p class="eyebrow" data-i18n="expertise_kicker">Expertise</p><h2 data-i18n="expertise_title">Un profil senior sur l’ensemble de la chaîne de données.</h2></div>
+          <p data-i18n="expertise_intro">Je combine compréhension opérationnelle, rigueur analytique et ingénierie légère pour produire des résultats utilisables, reproductibles et défendables.</p>
+        </div>
+
+        <div class="expertise-grid">
+          <article class="expertise-card reveal"><span class="card-number">01</span><h3 data-i18n="exp1_title">Conception d’enquêtes</h3><p data-i18n="exp1_text">Questionnaires Kobo/XLSForm, logiques complexes, choix des variables, échantillonnage et préparation de la collecte.</p><ul><li>KoboToolbox</li><li>XLSForm</li><li data-i18n="exp1_tag">Échantillonnage</li></ul></article>
+          <article class="expertise-card reveal"><span class="card-number">02</span><h3 data-i18n="exp2_title">Qualité des données</h3><p data-i18n="exp2_text">Contrôles automatisés, plausibilité, détection d’anomalies, suivi enquêteurs et boucles de correction avec le terrain.</p><ul><li>R / tidyverse</li><li>Cleaning logs</li><li>PHR</li></ul></article>
+          <article class="expertise-card reveal"><span class="card-number">03</span><h3 data-i18n="exp3_title">Analyse humanitaire</h3><p data-i18n="exp3_text">Construction et interprétation d’indicateurs multisectoriels pour transformer les données en constats et recommandations.</p><ul><li>FCS · HHS · rCSI</li><li>WASH · Santé · Nutrition</li><li data-i18n="exp3_tag">Analyse pondérée</li></ul></article>
+          <article class="expertise-card reveal"><span class="card-number">04</span><h3 data-i18n="exp4_title">Pilotage et visualisation</h3><p data-i18n="exp4_text">Trackers de collecte, suivi de représentativité et tableaux de bord adaptés aux besoins des équipes opérationnelles.</p><ul><li>Shiny</li><li>Power BI</li><li>Excel / Power Query</li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><p class="eyebrow" data-i18n="work_kicker">Projets sélectionnés</p><h2 data-i18n="work_title">Des systèmes pensés pour le terrain et la décision.</h2></div>
+          <p data-i18n="work_intro">Des projets où la qualité technique doit rester compatible avec les contraintes opérationnelles, les délais et la lisibilité pour les équipes.</p>
+        </div>
+
+        <div class="case-grid">
+          <article class="case-card featured reveal">
+            <div class="case-visual" aria-hidden="true">
+              <div class="dashboard">
+                <div class="dash-head"><div><span>MSNA 2026</span><strong data-i18n="dash_title">Suivi de représentativité</strong></div><span class="live-pill" data-i18n="dash_live">Collecte</span></div>
+                <div class="dash-kpis"><div><small data-i18n="dash_kpi1">Régions</small><strong>11</strong></div><div><small data-i18n="dash_kpi2">Cercles suivis</small><strong>139</strong></div><div><small data-i18n="dash_kpi3">Niveaux</small><strong>3</strong></div></div>
+                <div class="dash-main"><div class="bars"><span style="height:48%"></span><span style="height:76%"></span><span style="height:62%"></span><span style="height:91%"></span><span style="height:68%"></span><span style="height:96%"></span></div><div class="legend"><i></i><i></i><i></i><i></i></div></div>
+              </div>
+            </div>
+            <div class="case-body">
+              <div class="case-meta"><span data-i18n="case1_meta">Évaluation multisectorielle</span><span>2026</span></div>
+              <h3>MSNA Mali — Data Ecosystem</h3>
+              <p data-i18n="case1">Pilotage de la donnée de la collecte à l’analyse : tracker Shiny, quotas par cercle et cluster, contrôle qualité, boucles sectorielles et suivi de la représentativité.</p>
+              <div class="case-tags"><span>R</span><span>Shiny</span><span>Kobo</span><span>QA</span></div>
+            </div>
+          </article>
+
+          <article class="case-card reveal">
+            <div class="case-accent"><span>QA</span><strong>100+</strong><small data-i18n="case2_visual">règles et contrôles</small></div>
+            <div class="case-body"><div class="case-meta"><span data-i18n="case2_meta">Automatisation</span><span>R</span></div><h3 data-i18n="case2_title">Moteur de contrôle qualité</h3><p data-i18n="case2">Architecture réutilisable pour détecter les incohérences, prioriser les alertes et générer des cleaning logs exploitables par zone et par équipe.</p><div class="case-tags"><span>tidyverse</span><span>PHR</span><span>Excel</span></div></div>
+          </article>
+
+          <article class="case-card reveal">
+            <div class="case-accent"><span>IM</span><strong>FSL</strong><small>WASH · HESPER · rCSI</small></div>
+            <div class="case-body"><div class="case-meta"><span data-i18n="case3_meta">Analyse multisectorielle</span><span>2023–2026</span></div><h3 data-i18n="case3_title">Portefeuille d’évaluations humanitaires</h3><p data-i18n="case3">Contributions aux cycles Post-RRM, ABA, FHRAOC, HSM et MSNA, ainsi qu’à des appuis analytiques en RDC et au Burkina Faso.</p><div class="case-tags"><span>REACH</span><span>FCS</span><span>HHS</span><span>LCSI</span></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="profile">
+      <div class="container profile-grid">
+        <div class="reveal"><p class="eyebrow" data-i18n="profile_kicker">Profil</p><h2 data-i18n="profile_title">Plus qu’un changement d’intitulé.</h2><p class="lead compact" data-i18n="profile_intro">Mon rôle consiste à sécuriser la chaîne de données, mais aussi à poser les bonnes questions, expliquer les résultats et guider les décisions.</p></div>
+        <div class="profile-list reveal">
+          <div><span>01</span><p data-i18n="profile1"><strong>Structurer</strong> des processus adaptés au contexte terrain et aux objectifs analytiques.</p></div>
+          <div><span>02</span><p data-i18n="profile2"><strong>Arbitrer</strong> entre qualité, délais, représentativité et faisabilité opérationnelle.</p></div>
+          <div><span>03</span><p data-i18n="profile3"><strong>Interpréter</strong> les résultats avec rigueur, contexte et sens critique.</p></div>
+          <div><span>04</span><p data-i18n="profile4"><strong>Transmettre</strong> les méthodes, documenter les leçons apprises et renforcer les équipes.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="journey">
+      <div class="container">
+        <div class="section-head reveal"><div><p class="eyebrow" data-i18n="journey_kicker">Parcours</p><h2 data-i18n="journey_title">Une progression construite sur le terrain.</h2></div><p data-i18n="journey_intro">Ingénieur de formation, j’ai développé une spécialisation à l’intersection des données, des opérations humanitaires et de la décision.</p></div>
+        <div class="timeline reveal">
+          <article><time>2023</time><div><h3 data-i18n="journey1_title">Entrée chez REACH / ACTED Mali</h3><p data-i18n="journey1_text">Début comme Chargé de Données et premières responsabilités sur les évaluations et systèmes d’information humanitaires.</p></div></article>
+          <article><time>2024–2025</time><div><h3 data-i18n="journey2_title">Montée en responsabilité</h3><p data-i18n="journey2_text">Post-RRM, ABA, FHRAOC, HSM et leadership data sur la MSNA Mali 2025, avec des appuis régionaux.</p></div></article>
+          <article><time>2026</time><div><h3 data-i18n="journey3_title">Analyste de Données Senior</h3><p data-i18n="journey3_text">Pilotage de workflows complexes, contrôle qualité avancé, analyse multisectorielle, automatisation et accompagnement à la décision.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="writing">
+      <div class="container book-card reveal">
+        <div class="book-cover" aria-label="Couverture du projet de livre Penser Data" data-i18n-aria-label="book_cover_label"><span>OUMAR BOCOUM</span><strong>PENSER<br>DATA</strong><small data-i18n="book_sub">Devenir excellent dans un monde augmenté par l’IA</small></div>
+        <div class="book-copy"><p class="eyebrow" data-i18n="book_kicker">Projet éditorial</p><h2>Penser Data</h2><p data-i18n="book_intro">Un livre pour apprendre à comprendre les problèmes, questionner les données et produire de la valeur — au-delà de la simple maîtrise des outils.</p><div class="book-points"><div data-i18n="book1">Penser avant de coder</div><div data-i18n="book2">Créer de l’impact, pas seulement des graphiques</div><div data-i18n="book3">Faire de l’IA un levier, sans abandonner le jugement professionnel</div></div></div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container contact-grid">
+        <div class="reveal"><p class="eyebrow">Contact</p><h2 data-i18n="contact_title">Parlons données, systèmes et impact.</h2><p class="lead compact" data-i18n="contact_intro">Disponible pour échanger autour de l’analyse humanitaire, des systèmes de qualité et des projets data à fort impact.</p></div>
+        <div class="contact-links reveal">
+          <a href="mailto:obocoum.66@gmail.com"><span>Email</span><strong>↗</strong></a>
+          <button type="button" data-placeholder="linkedin"><span>LinkedIn</span><strong>↗</strong></button>
+          <button type="button" data-placeholder="github"><span>GitHub</span><strong>↗</strong></button>
+          <button type="button" data-placeholder="cv"><span data-i18n="download_cv">Télécharger mon CV</span><strong>↓</strong></button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container footer"><span>© <span id="currentYear">2026</span> Oumar Bocoum</span><span data-i18n="footer_role">Senior Data Analyst · Humanitarian Data · Mali</span></div></footer>
+
+  <div class="modal" id="commandModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="commandTitle">
+    <div class="modal-card">
+      <div class="modal-head"><label class="sr-only" id="commandTitle" for="commandSearch" data-i18n="command_title">Naviguer vers une section</label><input id="commandSearch" type="search" placeholder="Rechercher une section…" data-i18n-placeholder="search_placeholder"><button id="closeCommand" type="button" aria-label="Fermer" data-i18n-aria-label="close">✕</button></div>
+      <div class="command-list" id="commandList"><button type="button" data-target="#expertise" data-i18n="nav_expertise">Expertise</button><button type="button" data-target="#work" data-i18n="nav_work">Projets</button><button type="button" data-target="#profile" data-i18n="profile_kicker">Profil senior</button><button type="button" data-target="#journey" data-i18n="nav_journey">Parcours</button><button type="button" data-target="#writing" data-i18n="nav_writing">Écriture</button><button type="button" data-target="#contact" data-i18n="nav_contact">Contact</button></div>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
